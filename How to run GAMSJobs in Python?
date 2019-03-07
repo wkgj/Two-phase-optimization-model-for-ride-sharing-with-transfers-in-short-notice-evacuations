@@ -22,9 +22,8 @@ Running the transport1.py example:
 
 step 2:  copy  three Python codes about "Two-phase-optimization-model-for-ride-sharing-with-transfers-in-short-notice-evacuations " into the location file of GAMS Python API (Generally, /apifiles/Python/api_36).
 
-step 3:  If run the code for Chicago network, you should download link.xlsx and node.xlsx, and modify their file address in the python code(The address of these files in my computer is :'C:/Users/HUGUO/Desktop/ChicagoSketch/node.xlsx', 'C:/Users/HUGUO/Desktop/ChicagoSketch/link.xlsx')
+step 3:  If run the code for Chicago network, you should download link.xlsx and node.xlsx, and modify their file address in the python code(The address of these files in my computer is : 'C:/Users/HUGUO/Desktop/ChicagoSketch/node.xlsx', 'C:/Users/HUGUO/Desktop/ChicagoSketch/link.xlsx') 
 
-step 4:  Please run it !!
-
+Step 4:  Now, you can run it.
 
 
