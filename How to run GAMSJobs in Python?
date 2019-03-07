@@ -1,6 +1,30 @@
 Please see  the tutorial in https://www.gams.com/latest/docs/API_PY_TUTORIAL.html
-The goal of this tutorial is to provide a compact overview of the basic functionality of the GAMS Python API. It allows the user to start immediately working with the API by providing a set of small examples based on the well-known transportation problem. These examples 
-introduce several API features step by step.
-Getting started A quick introduction about how to run a program
-Important Classes of the API Overview of some fundamental classes of the GAMS Python API
-How to use the API An extensive set of examples describing how to use API components
+----The goal of this tutorial is to provide a compact overview of the basic functionality of the GAMS Python API. It allows the user to start immediately working with the API by providing a set of small examples based on the well-known transportation problem. These examples 
+    introduce several API features step by step.
+---- 1.Getting started A quick introduction about how to run a program
+---- 2.Important Classes of the API Overview of some fundamental classes of the GAMS Python API
+---- 3.How to use the API An extensive set of examples describing how to use API components
+
+I recommend any readers can scan above GAMS offical tutorial for GAMS Python API before running the code "Two-phase-optimization-model-for-ride-sharing-with-transfers-in-short-notice-evacuations " 
+
+
+
+step 1: Getting started
+The object oriented GAMS Python API is built on top of the different low level component API's and provides convenient access to GAMS from within Python. Examples using the API are located in apifiles/Python while the API itself is found in apifiles/Python/api for Python 2.7, in apifiles/Python/api_26 for Python 2.6 (Windows and Linux only), in apifiles/Python/api_34 for Python 3.4 and in apifiles/Python/api_36 for Python 3.6. The bitness of the Python version has to be the same as the bitness of the GAMS system. Assuming that the current directory is <Path/To/GAMS>/apifiles/Python the API can be used as follows:
+
+Installing the API and the required low level API's to Python site-packages:
+>>cd api && python setup.py install && cd ..
+If the API is installed, then the GAMS system directory may need to be locatable by the dynamic library loader. This would require setting (DY)LD_LIBRARY_PATH on Linux/OS X (see below).
+Using the API without installing:
+>>export PYTHONPATH=api  (on Windows: set PYTHONPATH=api)
+Running the transport1.py example:
+>>python transport1.py 
+
+step 2:  copy  three Python codes about "Two-phase-optimization-model-for-ride-sharing-with-transfers-in-short-notice-evacuations " into the location file of GAMS Python API (Generally, /apifiles/Python/api_36).
+
+step 3:  If run the code for Chicago network, you should download link.xlsx and node.xlsx, and modify their file address in the python code(The address of these files in my computer is :'C:/Users/HUGUO/Desktop/ChicagoSketch/node.xlsx', 'C:/Users/HUGUO/Desktop/ChicagoSketch/link.xlsx')
+
+step 4:  Please run it !!
+
+
+
