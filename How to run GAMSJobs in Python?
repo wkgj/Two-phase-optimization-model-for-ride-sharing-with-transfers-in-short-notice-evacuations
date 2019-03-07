@@ -1,0 +1,6 @@
+Please see  the tutorial in https://www.gams.com/latest/docs/API_PY_TUTORIAL.html
+The goal of this tutorial is to provide a compact overview of the basic functionality of the GAMS Python API. It allows the user to start immediately working with the API by providing a set of small examples based on the well-known transportation problem. These examples 
+introduce several API features step by step.
+Getting started A quick introduction about how to run a program
+Important Classes of the API Overview of some fundamental classes of the GAMS Python API
+How to use the API An extensive set of examples describing how to use API components
